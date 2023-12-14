@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+  color:white;
+  font-family: "Roboto", sans-serif;
+}
+
+.container{
+  background: transparent;
+}
+
+h1 {
+  position: relative;
+  z-index: 1; 
+  color: #d3d3d3; 
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  color: #d3d3d3;
+  text-decoration: none;
+}
+a:hover{
+  color:white;
+  text-decoration: none;
+}
+
+
+#canvas{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+/*   
+.canvas-container {
+  position:relative;
+  width: 100%; 
+  height: 100vh; 
+}  
+
+#space-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; 
+  width: 100%;
+  height: 100%;
+}   */
+
+.nav-link{
+  font-size: 22px;
+}
+
+.btn:not(:disabled):not(.disabled){
+  font-size: 20px;
+}
+.items{
+  font-size: 23px;
+}
+
+.items,
+.nav-link{
+  background: transparent;
+}
+
+.btn{
+  background:transparent;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+
+}  
+.media-body{
+  margin:30px;
+}
+
+
+.btn:hover{
+  color: white;
+}
+
+.row{
+  display: flex;
+  justify-content: normal;
+}
+
+.logout{
+  background: transparent;
+  font-size: 20px;
+
+}
+
+.navbar{
+  background: transparent;
+}  
+
+.items, 
+.items-link{
+  color:#d3d3d3;
+  font-size: 23px;
+
+}
+
+.form-control{
+  color: white;
+  background: transparent;
+  border: 0.5px solid #d3d3d3;
+  border-radius: 8px;
+
+}
+
+.form-control,
+.form-control:focus,
+.form-control:active{
+  background: transparent;
+}
+
+
+.form-group{
+  margin:35px;
+}
+
+.list-group-item{
+  background: transparent;
+  color:whitesmoke;
+}
+
+
+.list-group-item:hover {
+  background-color: black;
+  color: white;
+}
+
+
+form{
+  background: transparent;
+}
+
+.custom-bg {
+  background: transparent;
+}
